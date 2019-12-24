@@ -28,14 +28,14 @@ var _ = Describe("plusOne", func() {
 		})
 	})
 	Context("Given [9]", func() {
-		It("should ", func() {
+		It("should properly prepend one", func() {
 			input := []int{9}
 			expected := []int{1, 0}
 			Expect(plusOne(input)).To(Equal(expected))
 		})
 	})
 	Context("Given [1, 9]", func() {
-		It("should ", func() {
+		It("should properly increment the slice", func() {
 			input := []int{1, 9}
 			expected := []int{2, 0}
 			Expect(plusOne(input)).To(Equal(expected))
