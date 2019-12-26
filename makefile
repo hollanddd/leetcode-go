@@ -5,4 +5,4 @@ GOGET=$(GOCMD) get
 all: test
 
 test:
-	$(GOTEST) -r -v
+	$(GOTEST) -r -v --reportPassed
